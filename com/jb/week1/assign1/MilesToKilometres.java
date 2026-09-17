@@ -1,4 +1,4 @@
-package utils;
+package com.jb.week1.assign1;
 
 public class MilesToKilometres implements Util {
     private static double convert(double miles) {

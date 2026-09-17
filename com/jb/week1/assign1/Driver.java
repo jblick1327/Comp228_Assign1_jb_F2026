@@ -1,7 +1,9 @@
+package com.jb.week1.assign1;
+
 import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import utils.*;
+import com.jb.week1.assign1.*;
 
 public class Driver {
     public static void main(String[] args) throws IOException {

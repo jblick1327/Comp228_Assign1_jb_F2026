@@ -1,4 +1,4 @@
-package utils;
+package com.jb.week1.assign1;
 
 public class GradeCalculation implements Util {
     private static float calculateAverage(float grades[]) {
@@ -16,10 +16,12 @@ public class GradeCalculation implements Util {
             grade = 'A';
         } else if (average >= 80) {
             grade = 'B';
-        } else if (average >= 40) {
+        } else if (average >= 70) {
             grade = 'C';
-        } else {
+        } else if (average >= 60) {
             grade = 'D';
+        } else {
+            grade = 'F';
         }
         return grade;
     }

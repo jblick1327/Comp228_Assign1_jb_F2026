@@ -1,4 +1,4 @@
-package utils;
+package com.jb.week1.assign1;
 
 import java.io.IOException;
 
